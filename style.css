@@ -1,0 +1,14 @@
+.header {
+	background-color: black;
+	color: white;
+	height: 60px;
+}
+
+.flex {
+	display: flex;
+	list-style-type: none;
+	display: flex;
+	gap: 20px;
+	align-items: center;
+	justify-content: center;
+}
