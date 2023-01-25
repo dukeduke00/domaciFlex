@@ -1,14 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 .header {
 	background-color: black;
 	color: white;
 	height: 60px;
 }
 
-.flex {
+.flexBlack {
 	display: flex;
 	list-style-type: none;
 	display: flex;
 	gap: 20px;
 	align-items: center;
 	justify-content: center;
+	height: 100%;
+}
+
+.portfolio {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.profilePic {
+	width: 300px;
+	border-radius: 10px;
+	margin-top: 140px;
+}
+
+.buttonContact {
+	background-color: black;
+	color: white;
+	width: 150px;
+	padding: 10px;
 }
